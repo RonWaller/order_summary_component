@@ -28,9 +28,11 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  // justify-content: unset;
   align-items: center;
   gap: 1.5rem;
-  padding-inline: 3rem;
+  // padding-inline: 2rem;
+  width: 100%;
 }
 
 .hero img {
@@ -39,13 +41,14 @@ main {
 
 .title {
   color: $clr-secondary-darkblue;
-  // margin: 1.5rem 0;
+  margin-top: 2rem;
 }
 
 .summary {
-  padding-inline: 1.5rem;
-  line-height: 1.6;
+  padding-inline: 3rem;
+  line-height: 1.8;
   text-align: center;
+  align-self: center;
 }
 
 .pricing {
@@ -54,9 +57,9 @@ main {
   justify-content: space-around;
   align-items: center;
   background-color: $clr-secondary-paleblue;
-  // margin: 1rem 0;
   padding: 1rem 1rem;
   border-radius: 1rem;
+  align-self: auto;
 }
 
 .btn {
@@ -81,6 +84,7 @@ main {
 
 .cancel {
   font-size: 0.94rem;
+  font-weight: 900;
   text-decoration: none;
   color: $clr-primary-brightblue;
 }
